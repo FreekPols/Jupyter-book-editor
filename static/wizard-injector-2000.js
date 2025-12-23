@@ -3,7 +3,7 @@ console.log("Wizard Injector 2000 active.");
 const addWizard = function() {
     console.log("--- Wizard Debug Info ---");
 
-    if(!window.location.href.includes("editor")) {
+    if(!window.location.href.includes("editor=true")) {
         console.log("⚠️ Not in editor mode");
         return;
     }
@@ -81,7 +81,7 @@ const addWizard = function() {
 };
 
 // Check if we should run
-if (window.location.href.includes("editor") || window.location.search.includes("wizard=true")) {
+if (window.location.href.includes("editor=true")) {
     console.log("Editor mode detected. Waiting 2 seconds for MyST to settle...");
     document.addEventListener("DOMContentLoaded", () => {
         setTimeout(addWizard, 4000);
