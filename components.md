@@ -1,7 +1,7 @@
 +++
-# components
+# components 2Note with a changed title
 
-:::{note} Note with a changed title
+:::{note}
 this is a note which I have changed
 :::
 
