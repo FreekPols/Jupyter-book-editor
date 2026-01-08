@@ -48,7 +48,7 @@ const addWizard = function() {
     console.log("--------------------------");
 
     // 3. Construct Iframe
-    const iframeBase = "https://luukfroling.github.io/Wizard-jb2/";
+    const iframeBase = "https://freekpols.github.io/Wizard-jb2/";
     const finalUrl = `${iframeBase}?owner=${owner}&repo=${repo}&file=${filePath}`;
     
     console.log("Generated Iframe URL:", finalUrl);
