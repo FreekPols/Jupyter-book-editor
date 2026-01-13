@@ -1,5 +1,11 @@
 +++
-# Editor
+```{math}
+E=mc^2
+```
+
+```text
+Editor
+```
 
 **Well this is great**
 
