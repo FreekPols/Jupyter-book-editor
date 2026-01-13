@@ -1,6 +1,8 @@
 +++
 # Editor
 
+**Well this is great**
+
 Add a `?editor=true` to the url to enter editing mode! To make changes, fork the repo and follow the instructions from the original project.
 
 Important links: some changes undone
